@@ -1,0 +1,407 @@
+
+/* Product Details Page */
+
+body {
+    background: #f7f9ff;
+    color: #101d36;
+}
+
+/* Breadcrumb */
+
+.breadcrumb {
+    max-width: 1250px;
+    margin: 25px auto;
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    color: #718096;
+    flex-wrap: wrap;
+}
+
+.breadcrumb a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.breadcrumb i {
+    font-size: 10px;
+}
+
+
+/* Main Product Section */
+
+.product-section {
+    max-width: 1250px;
+    margin: 20px auto 40px;
+    padding: 35px;
+    background: white;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 55px;
+    box-shadow: 0 5px 25px rgba(20, 50, 100, 0.06);
+}
+
+
+/* Product Preview */
+
+.product-preview {
+    position: relative;
+    text-align: center;
+    background: #f2f6ff;
+    border-radius: 15px;
+    padding: 55px 35px 25px;
+}
+
+.preview-badge {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    background: #dcfce7;
+    color: #15803d;
+    padding: 8px 13px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.pdf-preview {
+    max-width: 340px;
+    min-height: 420px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    padding: 35px 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pdf-icon {
+    font-size: 55px;
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+
+.pdf-preview h2 {
+    font-size: 34px;
+    color: #1d4ed8;
+    letter-spacing: 3px;
+}
+
+.pdf-preview h3 {
+    font-size: 19px;
+    margin-top: 5px;
+}
+
+.preview-line {
+    width: 65%;
+    height: 3px;
+    background: #2563eb;
+    margin: 22px 0;
+    border-radius: 5px;
+}
+
+.pdf-preview p {
+    font-size: 13px;
+    color: #718096;
+    margin: 5px;
+}
+
+.preview-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    color: #2563eb;
+    font-weight: 700;
+}
+
+.preview-bottom i {
+    font-size: 30px;
+}
+
+.preview-caption {
+    margin-top: 20px;
+    color: #718096;
+    font-size: 13px;
+}
+
+
+/* Product Information */
+
+.resource-category {
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.product-info h1 {
+    font-size: 34px;
+    margin: 12px 0;
+}
+
+.product-rating {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    color: #718096;
+    font-size: 13px;
+}
+
+.rating-number {
+    background: #16a34a;
+    color: white;
+    padding: 5px 9px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.rating-number i {
+    font-size: 10px;
+}
+
+.rating-divider {
+    color: #cbd5e1;
+}
+
+
+/* Price */
+
+.product-price {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+.product-price h2 {
+    font-size: 32px;
+    color: #16a34a;
+}
+
+.product-price span {
+    font-size: 13px;
+    color: #718096;
+}
+
+.product-divider {
+    height: 1px;
+    background: #e8edf5;
+    margin: 22px 0;
+}
+
+.product-info h3 {
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+
+.product-description {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* Resource Details */
+
+.resource-details {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 14px;
+    border-bottom: 1px solid #f1f5f9;
+    padding-bottom: 10px;
+}
+
+.detail-row span {
+    color: #718096;
+}
+
+.detail-row strong {
+    text-align: right;
+    color: #26364f;
+}
+
+
+/* Buttons */
+
+.product-actions {
+    display: flex;
+    gap: 13px;
+    margin-top: 28px;
+    flex-wrap: wrap;
+}
+
+.download-btn,
+.back-btn {
+    padding: 14px 22px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.download-btn {
+    background: #2563eb;
+    color: white;
+    flex: 1;
+}
+
+.download-btn:hover {
+    background: #1d4ed8;
+}
+
+.back-btn {
+    border: 1px solid #dbe3f0;
+    color: #2563eb;
+}
+
+.safe-message {
+    color: #16a34a;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+
+/* Description Section */
+
+.description-section {
+    max-width: 1250px;
+    margin: 35px auto;
+    padding: 35px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 5px 25px rgba(20, 50, 100, 0.05);
+}
+
+.description-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.description-section p {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.description-section h3 {
+    margin: 28px 0 18px;
+    font-size: 18px;
+}
+
+.topics-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 17px;
+}
+
+.topic-item {
+    color: #475569;
+    font-size: 14px;
+}
+
+.topic-item i {
+    color: #16a34a;
+    margin-right: 8px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 900px) {
+    .product-section {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        margin: 20px;
+    }
+
+    .description-section {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .product-section {
+        padding: 18px;
+    }
+
+    .product-info h1 {
+        font-size: 27px;
+    }
+
+    .pdf-preview {
+        min-height: 350px;
+    }
+
+    .topics-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-actions {
+        flex-direction: column;
+    }
+
+    .breadcrumb {
+        font-size: 12px;
+    }
+
+    .description-section {
+        padding: 22px;
+    }
+}
+
+
+
+
+/* Mathematics Book Cover */
+
+.math-book-cover {
+    background: linear-gradient(145deg, #ffffff, #eff6ff);
+    border: 1px solid #dbeafe;
+    text-align: center;
+}
+
+.math-book-icon {
+    font-size: 48px;
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+
+.math-book-cover h2 {
+    color: #1e3a8a;
+    font-size: 21px;
+    letter-spacing: 2px;
+    line-height: 1.4;
+}
+
+.math-author {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 25px;
+    color: #1e3a8a;
+}
+
+.math-author strong {
+    font-size: 17px;
+}
+
+.math-author span {
+    color: #64748b;
+    font-size: 12px;
+}

@@ -1,0 +1,435 @@
+
+/* Exchange Product Page */
+
+body {
+    background: #f7f9ff;
+    color: #101d36;
+}
+
+
+/* Breadcrumb */
+
+.breadcrumb {
+    max-width: 1250px;
+    margin: 25px auto;
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #718096;
+}
+
+.breadcrumb a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.breadcrumb i {
+    font-size: 10px;
+}
+
+
+/* Main Section */
+
+.exchange-product-section {
+    max-width: 1250px;
+    margin: 20px auto 40px;
+    padding: 35px;
+    background: white;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 55px;
+    box-shadow: 0 5px 25px rgba(20, 50, 100, 0.06);
+}
+
+
+/* Preview */
+
+.exchange-preview {
+    position: relative;
+    text-align: center;
+    background: #f2f6ff;
+    border-radius: 15px;
+    padding: 65px 35px 25px;
+}
+
+.exchange-badge {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    background: #fff7ed;
+    color: #ea580c;
+    padding: 9px 13px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.exchange-pdf {
+    max-width: 340px;
+    min-height: 420px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    padding: 35px 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.exchange-pdf-icon {
+    font-size: 55px;
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+
+.exchange-pdf h2 {
+    font-size: 34px;
+    color: #1d4ed8;
+    letter-spacing: 3px;
+}
+
+.exchange-pdf h3 {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.exchange-line {
+    width: 65%;
+    height: 3px;
+    background: #2563eb;
+    margin: 22px 0;
+    border-radius: 5px;
+}
+
+.exchange-pdf p {
+    font-size: 13px;
+    color: #718096;
+    margin: 5px;
+}
+
+.exchange-pdf-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    color: #2563eb;
+    font-weight: 700;
+}
+
+.exchange-pdf-bottom i {
+    font-size: 30px;
+}
+
+.exchange-preview-caption {
+    margin-top: 20px;
+    color: #718096;
+    font-size: 13px;
+}
+
+
+/* Product Information */
+
+.exchange-category {
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.exchange-info h1 {
+    font-size: 34px;
+    margin: 12px 0;
+}
+
+.exchange-rating {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    color: #718096;
+    font-size: 13px;
+}
+
+.exchange-rating-number {
+    background: #16a34a;
+    color: white;
+    padding: 5px 9px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.exchange-rating-number i {
+    font-size: 10px;
+}
+
+
+/* Exchange Price Box */
+
+.exchange-price-box {
+    margin: 25px 0;
+    padding: 20px;
+    background: #fff7ed;
+    border: 1px solid #fed7aa;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.exchange-small-heading {
+    color: #ea580c;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.exchange-price-box h2 {
+    font-size: 23px;
+    margin: 7px 0;
+    color: #9a3412;
+}
+
+.exchange-price-box p {
+    color: #9a3412;
+    font-size: 13px;
+}
+
+.exchange-price-icon {
+    width: 55px;
+    height: 55px;
+    background: #ffedd5;
+    color: #ea580c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+
+.exchange-divider {
+    height: 1px;
+    background: #e8edf5;
+    margin: 22px 0;
+}
+
+.exchange-info h3 {
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+
+.exchange-description {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* Resource Details */
+
+.exchange-details {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.exchange-detail-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 14px;
+    border-bottom: 1px solid #f1f5f9;
+    padding-bottom: 10px;
+}
+
+.exchange-detail-row span {
+    color: #718096;
+}
+
+.exchange-detail-row strong {
+    color: #26364f;
+    text-align: right;
+}
+
+
+/* Exchange Request */
+
+.exchange-request-box {
+    display: flex;
+    gap: 15px;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    padding: 18px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.exchange-request-icon {
+    min-width: 45px;
+    height: 45px;
+    background: #dbeafe;
+    color: #2563eb;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.exchange-request-box h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.exchange-request-box p {
+    color: #475569;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.exchange-request-tag {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 10px;
+    background: white;
+    color: #2563eb;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+
+/* Buttons */
+
+.exchange-actions {
+    display: flex;
+    gap: 13px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.request-exchange-btn,
+.exchange-back-btn {
+    padding: 14px 20px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.request-exchange-btn {
+    background: #2563eb;
+    color: white;
+    flex: 1;
+}
+
+.request-exchange-btn:hover {
+    background: #1d4ed8;
+}
+
+.exchange-back-btn {
+    border: 1px solid #dbe3f0;
+    color: #2563eb;
+}
+
+.exchange-safe-message {
+    color: #16a34a;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+
+/* Description Section */
+
+.exchange-description-section {
+    max-width: 1250px;
+    margin: 35px auto;
+    padding: 35px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 5px 25px rgba(20, 50, 100, 0.05);
+}
+
+.exchange-description-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.exchange-description-section p {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.exchange-description-section h3 {
+    margin: 28px 0 18px;
+    font-size: 18px;
+}
+
+.exchange-topics-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 17px;
+}
+
+.exchange-topics-grid div {
+    color: #475569;
+    font-size: 14px;
+}
+
+.exchange-topics-grid i {
+    color: #16a34a;
+    margin-right: 8px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 900px) {
+    .exchange-product-section {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        margin: 20px;
+    }
+
+    .exchange-description-section {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .exchange-product-section {
+        padding: 18px;
+    }
+
+    .exchange-info h1 {
+        font-size: 27px;
+    }
+
+    .exchange-pdf {
+        min-height: 350px;
+    }
+
+    .exchange-topics-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .exchange-actions {
+        flex-direction: column;
+    }
+
+    .breadcrumb {
+        font-size: 12px;
+    }
+
+    .exchange-description-section {
+        padding: 22px;
+    }
+}

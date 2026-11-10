@@ -1,0 +1,459 @@
+body {
+    background: #f7faff;
+    color: #101d36;
+}
+
+.navbar .logo {
+    color: #2563eb;
+}
+
+.nav-links a.active {
+    color: #2563eb;
+    font-weight: 700;
+}
+
+.pyqs-hero {
+    max-width: 1250px;
+    min-height: 300px;
+    margin: 35px auto 55px;
+    padding: 55px 65px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(120deg, #eff6ff, #dbeafe, #eef2ff);
+    border: 1px solid #dbeafe;
+    border-radius: 24px;
+}
+
+.pyqs-hero-content {
+    max-width: 700px;
+    position: relative;
+    z-index: 2;
+}
+
+.pyqs-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    color: #2563eb;
+    background: #ffffff;
+    padding: 9px 16px;
+    border-radius: 30px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.pyqs-hero h1 {
+    font-size: 45px;
+    line-height: 1.2;
+    color: #101d36;
+    margin-bottom: 15px;
+}
+
+.pyqs-hero h1 span {
+    color: #2563eb;
+}
+
+.pyqs-hero p {
+    color: #52627a;
+    font-size: 15px;
+    line-height: 1.8;
+    max-width: 570px;
+    margin-bottom: 25px;
+}
+
+.pyqs-search {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #ffffff;
+    border: 1px solid #dbe4f0;
+    border-radius: 12px;
+    padding: 7px 8px 7px 17px;
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.08);
+}
+
+.pyqs-search > i {
+    color: #64748b;
+}
+
+.pyqs-search input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    color: #101d36;
+    font-size: 14px;
+}
+
+.pyqs-search input::placeholder {
+    color: #94a3b8;
+}
+
+.pyqs-search button {
+    border: none;
+    border-radius: 9px;
+    padding: 12px 22px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.pyqs-search button:hover {
+    background: #1d4ed8;
+}
+
+.pyqs-hero-icon {
+    width: 190px;
+    height: 190px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.65);
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.pyqs-hero-icon i {
+    color: #2563eb;
+    font-size: 85px;
+}
+
+.pyqs-section {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0 10px 80px;
+}
+
+.pyqs-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 28px;
+}
+
+.pyqs-small-title {
+    color: #2563eb;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.pyqs-heading h2 {
+    color: #101d36;
+    font-size: 30px;
+    margin: 8px 0;
+}
+
+.pyqs-heading p {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.pyqs-sort {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pyqs-sort label {
+    color: #64748b;
+    font-size: 13px;
+}
+
+.pyqs-sort select {
+    padding: 11px 14px;
+    border: 1px solid #d5dfed;
+    border-radius: 9px;
+    background: #ffffff;
+    color: #101d36;
+    font-size: 13px;
+    outline: none;
+    cursor: pointer;
+}
+
+.pyqs-sort select:focus {
+    border-color: #2563eb;
+}
+
+.pyqs-count {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.pyqs-count span {
+    color: #2563eb;
+    font-weight: 800;
+}
+
+.pyqs-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.pyq-card {
+    min-width: 0;
+    background: #ffffff;
+    border: 1px solid #dfeaf7;
+    border-radius: 20px;
+    padding: 14px;
+    box-shadow: 0 6px 20px rgba(15, 23, 42, 0.04);
+    transition: all 0.25s ease;
+}
+
+.pyq-card:hover {
+    transform: translateY(-5px);
+    border-color: #93c5fd;
+    box-shadow: 0 18px 35px rgba(37, 99, 235, 0.12);
+}
+
+.pyq-card-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.pyq-cover {
+    height: 180px;
+    border-radius: 14px;
+    padding: 18px 18px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 18px;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+.pyq-icon {
+    width: 62px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    margin-bottom: 14px;
+    box-shadow: 0 3px 10px rgba(15, 23, 42, 0.06);
+}
+
+.pyq-icon i {
+    font-size: 28px;
+}
+
+.pyq-subject {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    color: #64748b;
+    margin-bottom: 8px;
+}
+
+.pyq-cover h3 {
+    color: #172554;
+    font-size: 22px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.pyq-info h3 {
+    color: #101d36;
+    font-size: 20px;
+    line-height: 1.3;
+    margin: 0 0 12px;
+    min-height: 50px;
+}
+
+.pyq-rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+.pyq-rating i {
+    color: #f59e0b;
+    font-size: 14px;
+}
+
+.pyq-rating strong {
+    color: #101d36;
+    font-weight: 800;
+}
+
+.pyq-rating span {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.pyq-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 8px;
+    border-top: 1px solid #edf2f7;
+}
+
+.pyq-type {
+    color: #64748b;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.pyq-status {
+    padding: 7px 16px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 86px;
+    border: 1px solid transparent;
+}
+
+.free-status {
+    color: #15803d;
+    background: rgba(34, 197, 94, 0.12);
+    border-color: rgba(34, 197, 94, 0.18);
+}
+
+.exchange-status {
+    color: #1d4ed8;
+    background: rgba(59, 130, 246, 0.12);
+    border-color: rgba(59, 130, 246, 0.18);
+}
+
+.cover-blue { background: linear-gradient(140deg, #eff6ff, #dbeafe); }
+.cover-green { background: linear-gradient(140deg, #f0fdfa, #ccfbf1); }
+
+.pyqs-footer {
+    background: #101d36;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.pyqs-footer-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.pyqs-footer-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.pyqs-footer-logo i {
+    color: #60a5fa;
+}
+
+.pyqs-footer p {
+    color: #aab8ce;
+    font-size: 13px;
+    margin-bottom: 18px;
+}
+
+.pyqs-footer-content > span {
+    color: #8192ad;
+    font-size: 12px;
+}
+
+@media (max-width: 1050px) {
+    .pyqs-hero,
+    .pyqs-section {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .pyqs-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 750px) {
+    .pyqs-hero {
+        padding: 40px 30px;
+        min-height: auto;
+    }
+
+    .pyqs-hero h1 {
+        font-size: 35px;
+    }
+
+    .pyqs-hero-icon {
+        width: 120px;
+        height: 120px;
+        margin-right: 0;
+    }
+
+    .pyqs-hero-icon i {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 520px) {
+    .pyqs-hero {
+        margin: 20px 15px 40px;
+        padding: 35px 20px;
+    }
+
+    .pyqs-hero-icon {
+        display: none;
+    }
+
+    .pyqs-hero h1 {
+        font-size: 31px;
+    }
+
+    .pyqs-search {
+        gap: 7px;
+    }
+
+    .pyqs-search input {
+        font-size: 11px;
+    }
+
+    .pyqs-search button {
+        padding: 11px;
+        font-size: 11px;
+    }
+
+    .pyqs-section {
+        margin: 0 15px;
+        padding-bottom: 50px;
+    }
+
+    .pyqs-heading {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .pyqs-heading h2 {
+        font-size: 25px;
+    }
+}
