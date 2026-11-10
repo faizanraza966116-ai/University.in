@@ -1,3 +1,381 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e162ea48003ef2a4799ddfdb53acfd6f61b15aa095395078692c1a6c773a2620
-size 12889
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Books | UniShare</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="books.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="index.html" class="logo">
+                Uni<span>Share</span>
+            </a>
+
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                ☰
+            </label>
+
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="notes.html">Notes</a>
+                <a href="books.html" class="active">Books</a>
+                <a href="project.html">Projects</a>
+                <a href="pyqs.html">PYQs</a>
+                <a href="upload.html">Upload</a>
+                <a href="about.html">About</a>
+
+                <a href="signin.html" class="signin-btn">
+                    Sign In
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="books-hero">
+
+        <div class="books-hero-content">
+
+            <span class="books-label">
+                <i class="fa-solid fa-book-open-reader"></i>
+                ACADEMIC BOOK LIBRARY
+            </span>
+
+            <h1>
+                Discover the
+                <span>Best Books</span>
+            </h1>
+
+            <p>
+                Find quality textbooks, reference books, and study guides shared by students and learners.
+                Build stronger concepts with the right resources.
+            </p>
+
+            <div class="books-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search books by title or subject...">
+                <button type="button">Search</button>
+            </div>
+
+        </div>
+
+        <div class="books-hero-icon">
+            <i class="fa-solid fa-book"></i>
+        </div>
+
+    </section>
+
+    <section class="books-section">
+
+        <div class="books-heading">
+            <div>
+                <span class="books-small-title">YOUR READING COLLECTION</span>
+                <h2>Available Books</h2>
+                <p>Explore trusted books for every subject and learning goal.</p>
+            </div>
+
+            <div class="books-sort">
+                <label for="sortSelect">Sort by:</label>
+                <select id="sortSelect">
+                    <option>Most Popular</option>
+                    <option>Latest</option>
+                    <option>Highest Rated</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="books-count">
+            <span>8</span> books available
+        </div>
+
+        <div class="books-grid">
+
+            <div class="book-card">
+                <div class="book-cover cover-blue">
+                    <div class="book-icon"><i class="fa-solid fa-code"></i></div>
+                    <span class="book-subject">PROGRAMMING</span>
+                    <h3>Python Crash Course</h3>
+                </div>
+
+                <div class="book-info">
+                    <h3>Python Programming Essentials</h3>
+                    <div class="book-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.9</strong>
+                        <span>(145)</span>
+                    </div>
+                    <div class="book-bottom">
+                        <span class="book-type">Textbook</span>
+                        <span class="book-status free-status">Free</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-cover cover-green">
+                    <div class="book-icon"><i class="fa-solid fa-database"></i></div>
+                    <span class="book-subject">DATABASE</span>
+                    <h3>DBMS Handbook</h3>
+                </div>
+
+                <div class="book-info">
+                    <h3>Database Management Systems</h3>
+                    <div class="book-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.8</strong>
+                        <span>(122)</span>
+                    </div>
+                    <div class="book-bottom">
+                        <span class="book-type">Reference</span>
+                        <span class="book-status exchange-status">Exchange</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-cover cover-purple">
+                    <div class="book-icon"><i class="fa-solid fa-square-root-variable"></i></div>
+                    <span class="book-subject">MATHEMATICS</span>
+                    <h3>Calculus</h3>
+                </div>
+
+                <div class="book-info">
+                    <h3>Calculus Made Simple</h3>
+                    <div class="book-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.9</strong>
+                        <span>(178)</span>
+                    </div>
+                    <div class="book-bottom">
+                        <span class="book-type">Study Guide</span>
+                        <span class="book-status free-status">Free</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-cover cover-gold">
+                    <div class="book-icon"><i class="fa-solid fa-computer"></i></div>
+                    <span class="book-subject">CS</span>
+                    <h3>Operating Systems</h3>
+                </div>
+
+                <div class="book-info">
+                    <h3>Operating Systems Concepts</h3>
+                    <div class="book-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.7</strong>
+                        <span>(103)</span>
+                    </div>
+                    <div class="book-bottom">
+                        <span class="book-type">Theory</span>
+                        <span class="book-status exchange-status">Exchange</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-cover cover-lightblue">
+                    <div class="book-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                    <span class="book-subject">PROGRAMMING</span>
+                    <h3>Data Structures</h3>
+                </div>
+
+                <div class="book-info">
+                    <h3>Data Structures in Depth</h3>
+                    <div class="book-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.8</strong>
+                        <span>(118)</span>
+                    </div>
+                    <div class="book-bottom">
+                        <span class="book-type">Practice</span>
+                        <span class="book-status free-status">Free</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-cover cover-cyan">
+                    <div class="book-icon"><i class="fa-solid fa-atom"></i></div>
+                    <span class="book-subject">PHYSICS</span>
+                    <h3>Physics Formulas</h3>
+                </div>
+
+                <div class="book-info">
+                    <h3>Physics Formula Guide</h3>
+                    <div class="book-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.7</strong>
+                        <span>(94)</span>
+                    </div>
+                    <div class="book-bottom">
+                        <span class="book-type">Formula Book</span>
+                        <span class="book-status free-status">Free</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-cover cover-indigo">
+                    <div class="book-icon"><i class="fa-solid fa-network-wired"></i></div>
+                    <span class="book-subject">NETWORKING</span>
+                    <h3>Computer Networks</h3>
+                </div>
+
+                <div class="book-info">
+                    <h3>Networking Essentials</h3>
+                    <div class="book-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.6</strong>
+                        <span>(87)</span>
+                    </div>
+                    <div class="book-bottom">
+                        <span class="book-type">Theory</span>
+                        <span class="book-status exchange-status">Exchange</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-cover cover-pink">
+                    <div class="book-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <span class="book-subject">ELECTRONICS</span>
+                    <h3>Digital Electronics</h3>
+                </div>
+
+                <div class="book-info">
+                    <h3>Digital Logic and Circuits</h3>
+                    <div class="book-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.5</strong>
+                        <span>(66)</span>
+                    </div>
+                    <div class="book-bottom">
+                        <span class="book-type">Practical</span>
+                        <span class="book-status exchange-status">Exchange</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========== FOOTER SECTION START ========== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="footer-logo">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    UniShare
+                </a>
+
+                <p>
+                    Your gateway to smarter learning.
+                    Share knowledge, discover resources
+                    and grow together with students.
+                </p>
+
+                <div class="footer-socials">
+
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="notes.html">Resources</a>
+                <a href="upload.html">Upload Resources</a>
+                <a href="about.html">About Us</a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Categories</h3>
+
+                <a href="notes.html">Notes</a>
+                <a href="books.html">Books</a>
+                <a href="pyqs.html">Previous Papers</a>
+                <a href="project.html">Projects</a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Contact Us</h3>
+
+                <a href="mailto:contact@unishare.com">
+                    <i class="fa-regular fa-envelope"></i>
+                    contact@unishare.com
+                </a>
+
+                <a href="index.html">
+                    <i class="fa-solid fa-globe"></i>
+                    www.unishare.com
+                </a>
+
+                <p class="footer-contact-text">
+                    Have questions or suggestions?
+                    We'd love to hear from you.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 UniShare. All rights reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- ========== FOOTER SECTION END ========== -->
+
+</body>
+</html>

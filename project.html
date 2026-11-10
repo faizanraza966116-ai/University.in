@@ -1,3 +1,381 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5e19272c64c02b4e319af31dbeb4ed918592e74492629b1265c59c36956b94f7
-size 13072
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Projects | UniShare</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="index.html" class="logo">
+                Uni<span>Share</span>
+            </a>
+
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                ☰
+            </label>
+
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="notes.html">Notes</a>
+                <a href="books.html">Books</a>
+                <a href="project.html" class="active">Projects</a>
+                <a href="pyqs.html">PYQs</a>
+                <a href="upload.html">Upload</a>
+                <a href="about.html">About</a>
+
+                <a href="signin.html" class="signin-btn">
+                    Sign In
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="project-hero">
+
+        <div class="project-hero-content">
+
+            <span class="project-label">
+                <i class="fa-solid fa-laptop-code"></i>
+                STUDENT PROJECT HUB
+            </span>
+
+            <h1>
+                Build Better
+                <span>Projects</span>
+            </h1>
+
+            <p>
+                Discover smart, practical, and innovative academic projects created by students.
+                Explore ideas that help you learn by doing and showcase your skills.
+            </p>
+
+            <div class="project-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search projects by title or category...">
+                <button type="button">Search</button>
+            </div>
+
+        </div>
+
+        <div class="project-hero-icon">
+            <i class="fa-solid fa-diagram-project"></i>
+        </div>
+
+    </section>
+
+    <section class="project-section">
+
+        <div class="project-heading">
+            <div>
+                <span class="project-small-title">IDEAS & IMPLEMENTATIONS</span>
+                <h2>Available Projects</h2>
+                <p>Explore real project ideas across technology, design, and engineering.</p>
+            </div>
+
+            <div class="project-sort">
+                <label for="sortSelect">Sort by:</label>
+                <select id="sortSelect">
+                    <option>Most Popular</option>
+                    <option>Latest</option>
+                    <option>Highest Rated</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="project-count">
+            <span>8</span> projects available
+        </div>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <div class="project-cover cover-blue">
+                    <div class="project-icon"><i class="fa-solid fa-code"></i></div>
+                    <span class="project-subject">WEB</span>
+                    <h3>Portfolio Website</h3>
+                </div>
+
+                <div class="project-info">
+                    <h3>Responsive Portfolio Website</h3>
+                    <div class="project-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.9</strong>
+                        <span>(150)</span>
+                    </div>
+                    <div class="project-bottom">
+                        <span class="project-type">Frontend</span>
+                        <span class="project-status free-status">Free</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-cover cover-green">
+                    <div class="project-icon"><i class="fa-solid fa-database"></i></div>
+                    <span class="project-subject">DATA</span>
+                    <h3>Student Dashboard</h3>
+                </div>
+
+                <div class="project-info">
+                    <h3>Student Data Dashboard</h3>
+                    <div class="project-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.8</strong>
+                        <span>(131)</span>
+                    </div>
+                    <div class="project-bottom">
+                        <span class="project-type">Analytics</span>
+                        <span class="project-status exchange-status">Exchange</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-cover cover-purple">
+                    <div class="project-icon"><i class="fa-solid fa-robot"></i></div>
+                    <span class="project-subject">AI</span>
+                    <h3>Chatbot</h3>
+                </div>
+
+                <div class="project-info">
+                    <h3>College Help Chatbot</h3>
+                    <div class="project-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.9</strong>
+                        <span>(182)</span>
+                    </div>
+                    <div class="project-bottom">
+                        <span class="project-type">AI</span>
+                        <span class="project-status free-status">Free</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-cover cover-gold">
+                    <div class="project-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                    <span class="project-subject">APP</span>
+                    <h3>Expense Tracker</h3>
+                </div>
+
+                <div class="project-info">
+                    <h3>Mobile Expense Tracker</h3>
+                    <div class="project-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.7</strong>
+                        <span>(103)</span>
+                    </div>
+                    <div class="project-bottom">
+                        <span class="project-type">App</span>
+                        <span class="project-status exchange-status">Exchange</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-cover cover-lightblue">
+                    <div class="project-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                    <span class="project-subject">ML</span>
+                    <h3>Predictor</h3>
+                </div>
+
+                <div class="project-info">
+                    <h3>Student Performance Predictor</h3>
+                    <div class="project-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.8</strong>
+                        <span>(120)</span>
+                    </div>
+                    <div class="project-bottom">
+                        <span class="project-type">Machine Learning</span>
+                        <span class="project-status free-status">Free</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-cover cover-cyan">
+                    <div class="project-icon"><i class="fa-solid fa-cloud"></i></div>
+                    <span class="project-subject">CLOUD</span>
+                    <h3>Cloud Storage</h3>
+                </div>
+
+                <div class="project-info">
+                    <h3>Cloud File Storage App</h3>
+                    <div class="project-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.7</strong>
+                        <span>(90)</span>
+                    </div>
+                    <div class="project-bottom">
+                        <span class="project-type">Cloud</span>
+                        <span class="project-status free-status">Free</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-cover cover-indigo">
+                    <div class="project-icon"><i class="fa-solid fa-network-wired"></i></div>
+                    <span class="project-subject">NETWORK</span>
+                    <h3>Packet Sniffer</h3>
+                </div>
+
+                <div class="project-info">
+                    <h3>Network Monitoring Tool</h3>
+                    <div class="project-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.6</strong>
+                        <span>(77)</span>
+                    </div>
+                    <div class="project-bottom">
+                        <span class="project-type">Networking</span>
+                        <span class="project-status exchange-status">Exchange</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-cover cover-pink">
+                    <div class="project-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <span class="project-subject">IOT</span>
+                    <h3>Smart Home</h3>
+                </div>
+
+                <div class="project-info">
+                    <h3>Smart Home Automation</h3>
+                    <div class="project-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.5</strong>
+                        <span>(69)</span>
+                    </div>
+                    <div class="project-bottom">
+                        <span class="project-type">IoT</span>
+                        <span class="project-status exchange-status">Exchange</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========== FOOTER SECTION START ========== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="footer-logo">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    UniShare
+                </a>
+
+                <p>
+                    Your gateway to smarter learning.
+                    Share knowledge, discover resources
+                    and grow together with students.
+                </p>
+
+                <div class="footer-socials">
+
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="notes.html">Resources</a>
+                <a href="upload.html">Upload Resources</a>
+                <a href="about.html">About Us</a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Categories</h3>
+
+                <a href="notes.html">Notes</a>
+                <a href="books.html">Books</a>
+                <a href="pyqs.html">Previous Papers</a>
+                <a href="project.html">Projects</a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Contact Us</h3>
+
+                <a href="mailto:contact@unishare.com">
+                    <i class="fa-regular fa-envelope"></i>
+                    contact@unishare.com
+                </a>
+
+                <a href="index.html">
+                    <i class="fa-solid fa-globe"></i>
+                    www.unishare.com
+                </a>
+
+                <p class="footer-contact-text">
+                    Have questions or suggestions?
+                    We'd love to hear from you.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 UniShare. All rights reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- ========== FOOTER SECTION END ========== -->
+
+</body>
+</html>

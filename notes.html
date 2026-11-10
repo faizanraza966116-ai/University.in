@@ -1,3 +1,912 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6570fb0b1e96f94195381164e96a830172fc40568a2027a94a52615e20103a47
-size 22048
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explore Notes | UniShare</title>
+
+    <!-- Homepage CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Notes Page CSS -->
+    <link rel="stylesheet" href="notes.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR START ================= -->
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="index.html" class="logo">
+                Uni<span>Share</span>
+            </a>
+
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                ☰
+            </label>
+
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="notes.html" class="active">Resources</a>
+                <a href="books.html">Books</a>
+                <a href="project.html">Projects</a>
+                <a href="upload.html">Upload</a>
+                <a href="about.html">About</a>
+
+                <a href="signin.html" class="signin-btn">
+                    Sign In
+                </a>
+            </nav>
+
+        </div>
+    </header>
+    <!-- ================= NAVBAR END ================= -->
+
+
+    <!-- ================= NOTES HERO ================= -->
+
+    <section class="notes-hero">
+
+        <div class="notes-hero-content">
+
+            <span class="notes-label">
+                <i class="fa-solid fa-book-open"></i>
+                STUDY RESOURCE LIBRARY
+            </span>
+
+            <h1>
+                Explore Study
+                <span>Notes</span>
+            </h1>
+
+            <p>
+                Discover quality study notes, important questions
+                and handwritten materials shared by students.
+                Find everything you need for smarter learning.
+            </p>
+
+            <!-- Search Bar -->
+
+            <div class="notes-search">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                    type="text"
+                    placeholder="Search notes by title or subject..."
+                >
+
+                <button type="button">
+                    Search
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Hero Decoration -->
+
+        <div class="notes-hero-icon">
+
+            <i class="fa-solid fa-book-bookmark"></i>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= RESOURCE SECTION ================= -->
+
+    <section class="resource-section">
+
+
+        <!-- Section Heading -->
+
+        <div class="resource-heading">
+
+            <div>
+
+                <span class="resource-small-title">
+                    YOUR LEARNING COLLECTION
+                </span>
+
+                <h2>Available Notes</h2>
+
+                <p>
+                    Find the right study material for your subjects.
+                </p>
+
+            </div>
+
+
+            <!-- Sorting Dropdown -->
+
+            <div class="resource-sort">
+
+                <label for="sortSelect">Sort by:</label>
+
+                <select id="sortSelect">
+
+                    <option>Most Popular</option>
+
+                    <option>Latest</option>
+
+                    <option>Highest Rated</option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+
+        <!-- Resource Count -->
+
+        <div class="resource-count">
+
+            <span>8</span> notes available
+
+        </div>
+
+
+        <!-- ================= RESOURCE GRID ================= -->
+
+        <div class="resource-grid">
+
+
+            <!-- CARD 1: PYTHON NOTES -->
+
+            <div class="resource-card">
+
+                <div class="resource-preview python-preview">
+
+                    <div class="preview-icon python-color">
+
+                        <i class="fa-brands fa-python"></i>
+
+                    </div>
+
+                    <span class="preview-subject">
+                        PROGRAMMING
+                    </span>
+
+                    <h3>Python Programming</h3>
+
+                    <p>Complete Tutorial Notes</p>
+
+                    <div class="preview-lines">
+
+                        <span>01. Variables and Data Types</span>
+
+                        <span>02. Loops and Conditions</span>
+
+                        <span>03. Functions and Modules</span>
+
+                        <span>04. Lists and Dictionaries</span>
+
+                        <span>05. Object Oriented Programming</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="resource-info">
+
+                    <span class="subject-tag">
+                        Programming
+                    </span>
+
+                    <h3>Python Complete Notes</h3>
+
+                    <div class="resource-rating">
+
+                        <i class="fa-solid fa-star"></i>
+
+                        <strong>4.8</strong>
+
+                        <span>(124)</span>
+
+                    </div>
+
+
+                    <div class="resource-bottom">
+
+                        <span class="resource-uploader">
+                            <i class="fa-solid fa-user"></i>
+                            Student Upload
+                        </span>
+
+                        <a href="product.html" class="resource-status free-status">
+                            Free
+                        </a>
+
+                    </div>
+
+
+                    <a href="product.html" class="resource-view">
+                        View Details
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CARD 2: DBMS NOTES -->
+
+            <div class="resource-card">
+
+                <div class="resource-preview dbms-preview">
+
+                    <div class="preview-icon dbms-color">
+
+                        <i class="fa-solid fa-database"></i>
+
+                    </div>
+
+                    <span class="preview-subject">
+                        DATABASE
+                    </span>
+
+                    <h3>DBMS</h3>
+
+                    <p>Important Notes</p>
+
+                    <div class="preview-lines">
+
+                        <span>01. Database Management System</span>
+
+                        <span>02. Database Normalization</span>
+
+                        <span>03. Primary and Foreign Keys</span>
+
+                        <span>04. Relational Database Models</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="resource-info">
+
+                    <span class="subject-tag">
+                        Database
+                    </span>
+
+                    <h3>DBMS Important Notes</h3>
+
+                    <div class="resource-rating">
+
+                        <i class="fa-solid fa-star"></i>
+
+                        <strong>4.7</strong>
+
+                        <span>(98)</span>
+
+                    </div>
+
+
+                    <div class="resource-bottom">
+
+                        <span class="resource-uploader">
+                            <i class="fa-solid fa-user"></i>
+                            Student Upload
+                        </span>
+
+                        <a href="exchange.html" class="resource-status exchange-status">
+                            Exchange
+                        </a>
+
+                    </div>
+
+
+                    <a href="#" class="resource-view">
+                        View Details
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CARD 3: CALCULUS NOTES -->
+
+            <div class="resource-card">
+
+                <div class="resource-preview calculus-preview">
+
+                    <div class="preview-icon calculus-color">
+
+                        <i class="fa-solid fa-square-root-variable"></i>
+
+                    </div>
+
+                    <span class="preview-subject">
+                        MATHEMATICS
+                    </span>
+
+                    <h3>Calculus</h3>
+
+                    <p>Handwritten Notes</p>
+
+                    <div class="preview-formulas">
+
+                        <span>∫ f(x) dx</span>
+
+                        <span>lim x → a</span>
+
+                        <span>dy / dx</span>
+
+                        <span>∫ₐᵇ f(x) dx</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="resource-info">
+
+                    <span class="subject-tag">
+                        Mathematics
+                    </span>
+
+                    <h3>Calculus Handwritten Notes</h3>
+
+                    <div class="resource-rating">
+
+                        <i class="fa-solid fa-star"></i>
+
+                        <strong>4.9</strong>
+
+                        <span>(156)</span>
+
+                    </div>
+
+
+                    <div class="resource-bottom">
+
+                        <span class="resource-uploader">
+                            <i class="fa-solid fa-user"></i>
+                            Student Upload
+                        </span>
+
+                        <span class="resource-status free-status">
+                            Free
+                        </span>
+
+                    </div>
+
+
+                    <a href="#" class="resource-view">
+                        View Details
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CARD 4: OPERATING SYSTEM -->
+
+            <div class="resource-card">
+
+                <div class="resource-preview os-preview">
+
+                    <div class="preview-icon os-color">
+
+                        <i class="fa-solid fa-desktop"></i>
+
+                    </div>
+
+                    <span class="preview-subject">
+                        COMPUTER SCIENCE
+                    </span>
+
+                    <h3>Operating Systems</h3>
+
+                    <p>Complete Study Notes</p>
+
+                    <div class="preview-flow">
+
+                        <span>Processes</span>
+
+                        <i class="fa-solid fa-arrow-down"></i>
+
+                        <span>CPU Scheduling</span>
+
+                        <i class="fa-solid fa-arrow-down"></i>
+
+                        <span>Memory Management</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="resource-info">
+
+                    <span class="subject-tag">
+                        Computer Science
+                    </span>
+
+                    <h3>Operating Systems Notes</h3>
+
+                    <div class="resource-rating">
+
+                        <i class="fa-solid fa-star"></i>
+
+                        <strong>4.6</strong>
+
+                        <span>(77)</span>
+
+                    </div>
+
+
+                    <div class="resource-bottom">
+
+                        <span class="resource-uploader">
+                            <i class="fa-solid fa-user"></i>
+                            Student Upload
+                        </span>
+
+                        <span class="resource-status exchange-status">
+                            Exchange
+                        </span>
+
+                    </div>
+
+
+                    <a href="#" class="resource-view">
+                        View Details
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CARD 5: DATA STRUCTURES -->
+
+            <div class="resource-card">
+
+                <div class="resource-preview ds-preview">
+
+                    <div class="preview-icon ds-color">
+
+                        <i class="fa-solid fa-diagram-project"></i>
+
+                    </div>
+
+                    <span class="preview-subject">
+                        PROGRAMMING
+                    </span>
+
+                    <h3>Data Structures</h3>
+
+                    <p>Handwritten Notes</p>
+
+                    <div class="preview-boxes">
+
+                        <span>Array</span>
+
+                        <span>Stack</span>
+
+                        <span>Queue</span>
+
+                        <span>Linked List</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="resource-info">
+
+                    <span class="subject-tag">
+                        Programming
+                    </span>
+
+                    <h3>Data Structures Handwritten Notes</h3>
+
+                    <div class="resource-rating">
+
+                        <i class="fa-solid fa-star"></i>
+
+                        <strong>4.8</strong>
+
+                        <span>(102)</span>
+
+                    </div>
+
+
+                    <div class="resource-bottom">
+
+                        <span class="resource-uploader">
+                            <i class="fa-solid fa-user"></i>
+                            Student Upload
+                        </span>
+
+                        <span class="resource-status free-status">
+                            Free
+                        </span>
+
+                    </div>
+
+
+                    <a href="#" class="resource-view">
+                        View Details
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CARD 6: PHYSICS -->
+
+            <div class="resource-card">
+
+                <div class="resource-preview physics-preview">
+
+                    <div class="preview-icon physics-color">
+
+                        <i class="fa-solid fa-atom"></i>
+
+                    </div>
+
+                    <span class="preview-subject">
+                        PHYSICS
+                    </span>
+
+                    <h3>Physics</h3>
+
+                    <p>Important Formulas</p>
+
+                    <div class="preview-formulas">
+
+                        <span>v = u + at</span>
+
+                        <span>s = ut + ½at²</span>
+
+                        <span>F = ma</span>
+
+                        <span>E = mc²</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="resource-info">
+
+                    <span class="subject-tag">
+                        Physics
+                    </span>
+
+                    <h3>Physics Important Formulas</h3>
+
+                    <div class="resource-rating">
+
+                        <i class="fa-solid fa-star"></i>
+
+                        <strong>4.7</strong>
+
+                        <span>(68)</span>
+
+                    </div>
+
+
+                    <div class="resource-bottom">
+
+                        <span class="resource-uploader">
+                            <i class="fa-solid fa-user"></i>
+                            Student Upload
+                        </span>
+
+                        <span class="resource-status free-status">
+                            Free
+                        </span>
+
+                    </div>
+
+
+                    <a href="#" class="resource-view">
+                        View Details
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CARD 7: COMPUTER NETWORKS -->
+
+            <div class="resource-card">
+
+                <div class="resource-preview network-preview">
+
+                    <div class="preview-icon network-color">
+
+                        <i class="fa-solid fa-network-wired"></i>
+
+                    </div>
+
+                    <span class="preview-subject">
+                        NETWORKING
+                    </span>
+
+                    <h3>Computer Networks</h3>
+
+                    <p>Layer-wise Study Notes</p>
+
+                    <div class="preview-flow">
+
+                        <span>Application Layer</span>
+
+                        <i class="fa-solid fa-arrow-down"></i>
+
+                        <span>Transport Layer</span>
+
+                        <i class="fa-solid fa-arrow-down"></i>
+
+                        <span>Network Layer</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="resource-info">
+
+                    <span class="subject-tag">
+                        Networking
+                    </span>
+
+                    <h3>Computer Networks Notes</h3>
+
+                    <div class="resource-rating">
+
+                        <i class="fa-solid fa-star"></i>
+
+                        <strong>4.6</strong>
+
+                        <span>(81)</span>
+
+                    </div>
+
+
+                    <div class="resource-bottom">
+
+                        <span class="resource-uploader">
+                            <i class="fa-solid fa-user"></i>
+                            Student Upload
+                        </span>
+
+                        <span class="resource-status exchange-status">
+                            Exchange
+                        </span>
+
+                    </div>
+
+
+                    <a href="#" class="resource-view">
+                        View Details
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CARD 8: DIGITAL ELECTRONICS -->
+
+            <div class="resource-card">
+
+                <div class="resource-preview digital-preview">
+
+                    <div class="preview-icon digital-color">
+
+                        <i class="fa-solid fa-microchip"></i>
+
+                    </div>
+
+                    <span class="preview-subject">
+                        ELECTRONICS
+                    </span>
+
+                    <h3>Digital Electronics</h3>
+
+                    <p>Logic Gates & Circuits</p>
+
+                    <div class="preview-circuit">
+
+                        <span>A · B · AND · OR · NOT</span>
+
+                        <span>Logic Gates & Circuits</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="resource-info">
+
+                    <span class="subject-tag">
+                        Electronics
+                    </span>
+
+                    <h3>Digital Electronics Notes</h3>
+
+                    <div class="resource-rating">
+
+                        <i class="fa-solid fa-star"></i>
+
+                        <strong>4.5</strong>
+
+                        <span>(59)</span>
+
+                    </div>
+
+
+                    <div class="resource-bottom">
+
+                        <span class="resource-uploader">
+                            <i class="fa-solid fa-user"></i>
+                            Student Upload
+                        </span>
+
+                        <span class="resource-status exchange-status">
+                            Exchange
+                        </span>
+
+                    </div>
+
+
+                    <a href="#" class="resource-view">
+                        View Details
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========== FOOTER SECTION START ========== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="footer-logo">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    UniShare
+                </a>
+
+                <p>
+                    Your gateway to smarter learning.
+                    Share knowledge, discover resources
+                    and grow together with students.
+                </p>
+
+                <div class="footer-socials">
+
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="notes.html">Resources</a>
+                <a href="upload.html">Upload Resources</a>
+                <a href="about.html">About Us</a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Categories</h3>
+
+                <a href="notes.html">Notes</a>
+                <a href="books.html">Books</a>
+                <a href="pyqs.html">Previous Papers</a>
+                <a href="project.html">Projects</a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Contact Us</h3>
+
+                <a href="mailto:contact@unishare.com">
+                    <i class="fa-regular fa-envelope"></i>
+                    contact@unishare.com
+                </a>
+
+                <a href="index.html">
+                    <i class="fa-solid fa-globe"></i>
+                    www.unishare.com
+                </a>
+
+                <p class="footer-contact-text">
+                    Have questions or suggestions?
+                    We'd love to hear from you.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 UniShare. All rights reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- ========== FOOTER SECTION END ========== -->
+
+</body>
+
+</html>
