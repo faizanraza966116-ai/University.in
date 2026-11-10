@@ -1,3 +1,709 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1ecdb8c13bbb18e7a8ca5bc3760abfb6516e5b0b1e3060227f977ec088cab161
-size 18167
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+    
+<!-- ========== NAVBAR START ========== -->
+<header class="navbar">
+    <div class="nav-container">
+
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+            Uni<span>Share</span>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            ☰
+        </label>
+
+        <!-- Navigation Links -->
+        <nav class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="notes.html">Resources</a>
+            <a href="books.html">Books</a>
+            <a href="project.html">Projects</a>
+            <a href="upload.html">Upload</a>
+            <a href="about.html">About</a>
+
+            <span class="student-profile">
+                <i class="fa-solid fa-circle-user" aria-hidden="true"></i>
+                Student
+            </span>
+        </nav>
+
+    </div>
+</header>
+<!-- ========== NAVBAR END ========== -->
+
+
+<!-- ========== HERO SECTION START ========== -->
+
+<section class="hero">
+    <div class="hero-container">
+
+        <!-- Left Content -->
+        <div class="hero-content">
+
+            <span class="hero-tag">
+                WELCOME TO UNISHARE
+            </span>
+
+            <h1>
+                Your Gateway to
+                <span>Smarter Learning.</span>
+            </h1>
+
+            <p class="hero-description">
+                Discover notes, books, previous year papers
+                and projects shared by students like you.
+                Learn together and grow together with UniShare.
+            </p>
+
+            <!-- Search Box -->
+            <div class="hero-search">
+                <input
+                    type="text"
+                    placeholder="Search notes, books, subjects..."
+                >
+
+                <button type="button">
+                    Search
+                </button>
+            </div>
+
+            <!-- Features -->
+            <div class="hero-features">
+                <span> Free Resources</span>
+                <span> Student Community</span>
+            </div>
+
+        </div>
+
+        <!-- Right Image -->
+        <div class="hero-image">
+            <img
+                src="images/hero-image.png"
+                alt="Students learning with books"
+            >
+        </div>
+
+    </div>
+</section>
+
+<!-- ========== HERO SECTION END ========== -->
+
+
+
+<!-- ========== BROWSE CATEGORIES START ========== -->
+
+<section class="categories-section">
+
+    <div class="categories-container">
+
+        <div class="categories-heading">
+            <span class="section-tag">EXPLORE LIBRARY</span>
+
+            <h2>Browse Categories</h2>
+
+            <p>
+                Find everything you need for your academic journey.
+                Explore resources shared by students.
+            </p>
+        </div>
+
+        <div class="categories-grid">
+
+            <!-- Notes -->
+            <a href="notes.html"
+               class="category-card notes-card">
+
+                <div class="category-icon">📘</div>
+
+                <h3>Notes</h3>
+
+                <p>
+                    Access class notes and study
+                    materials for your subjects.
+                </p>
+
+                <span class="category-link">
+                    Explore Notes →
+                </span>
+
+            </a>
+
+            <!-- Books -->
+            <a href="books.html"
+               class="category-card books-card">
+
+                <div class="category-icon">📚</div>
+
+                <h3>Books</h3>
+
+                <p>
+                    Discover academic books
+                    and useful reference materials.
+                </p>
+
+                <span class="category-link">
+                    Explore Books →
+                </span>
+
+            </a>
+
+            <!-- Previous Papers -->
+            <a href="pyqs.html"
+               class="category-card papers-card">
+
+                <div class="category-icon">📄</div>
+
+                <h3>Previous Papers</h3>
+
+                <p>
+                    Prepare smarter with previous
+                    year question papers.
+                </p>
+
+                <span class="category-link">
+                    Explore Papers →
+                </span>
+
+            </a>
+
+            <!-- Projects -->
+            <a href="project.html"
+               class="category-card projects-card">
+
+                <div class="category-icon">💻</div>
+
+                <h3>Projects</h3>
+
+                <p>
+                    Explore academic projects,
+                    ideas and practical work.
+                </p>
+
+                <span class="category-link">
+                    Explore Projects →
+                </span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========== BROWSE CATEGORIES END ========== -->
+
+
+<!-- ========== FEATURED RESOURCES START ========== -->
+
+<section class="featured-section">
+
+    <div class="featured-container">
+
+        <!-- Section Heading -->
+        <div class="featured-heading">
+            <span class="section-tag">STUDENT LIBRARY</span>
+
+            <h2>Featured Resources</h2>
+
+            <p>
+                Discover the most useful study materials
+                shared by students like you.
+            </p>
+        </div>
+
+        <!-- Resources Header -->
+        <div class="featured-top">
+            <div>
+                <h3>Recently Uploaded</h3>
+                <p>Explore the latest learning materials</p>
+            </div>
+
+            <a href="resources.html" class="view-all-btn">
+                View All <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+
+        <!-- Resource Cards -->
+        <div class="resources-grid">
+
+            <!-- Card 1 -->
+            <div class="resource-card">
+
+                <div class="resource-top">
+                    <div class="resource-icon math-icon">
+                        <i class="fa-solid fa-file-pdf"></i>
+                    </div>
+
+                    <span class="file-badge pdf-badge">PDF</span>
+                </div>
+
+                <span class="resource-subject">
+                    MATHEMATICS
+                </span>
+
+                <h3>Engineering Mathematics</h3>
+
+                <p>
+                    Complete mathematics notes
+                    for engineering students.
+                </p>
+
+                <div class="resource-info">
+                    <span>
+                        <i class="fa-solid fa-user"></i>
+                        
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-download"></i>
+                        
+                    </span>
+                </div>
+
+                <a href="math-product.html"
+                   class="download-btn">
+                    View Resource
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+            <!-- Card 2 -->
+            <div class="resource-card">
+
+                <div class="resource-top">
+                    <div class="resource-icon python-icon">
+                        <i class="fa-solid fa-file-code"></i>
+                    </div>
+
+                    <span class="file-badge pdf-badge">PDF</span>
+                </div>
+
+                <span class="resource-subject">
+                    COMPUTER SCIENCE
+                </span>
+
+                <h3>Python Programming Notes</h3>
+
+                <p>
+                    Easy programming notes with
+                    examples and explanations.
+                </p>
+
+                <div class="resource-info">
+                    <span>
+                        <i class="fa-solid fa-user"></i>
+                        
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-download"></i>
+                        
+                    </span>
+                </div>
+
+                <a href="product.html"
+                   class="download-btn">
+                    View Resource
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+            <!-- Card 3 -->
+            <div class="resource-card">
+
+                <div class="resource-top">
+                    <div class="resource-icon paper-icon">
+                        <i class="fa-solid fa-file-circle-check"></i>
+                    </div>
+
+                    <span class="file-badge pdf-badge">PDF</span>
+                </div>
+
+                <span class="resource-subject">
+                    QUESTION PAPERS
+                </span>
+
+                <h3>Previous Year Papers</h3>
+
+                <p>
+                    Prepare for examinations using
+                    previous year question papers.
+                </p>
+
+                <div class="resource-info">
+                    <span>
+                        <i class="fa-solid fa-user"></i>
+                        
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-download"></i>
+                       
+                    </span>
+                </div>
+
+                <a href="pyq-product.html"
+                   class="download-btn">
+                    View Resource
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+            <!-- Card 4 -->
+            <div class="resource-card">
+
+                <div class="resource-top">
+                    <div class="resource-icon project-icon">
+                        <i class="fa-solid fa-file-zipper"></i>
+                    </div>
+
+                    <span class="file-badge zip-badge">ZIP</span>
+                </div>
+
+                <span class="resource-subject">
+                    ELECTRONICS PROJECT
+                </span>
+
+                <h3>Arduino Based Project</h3>
+
+                <p>
+                    Explore project documentation
+                    and supporting source files.
+                </p>
+
+                <div class="resource-info">
+                    <span>
+                        <i class="fa-solid fa-user"></i>
+                        
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-download"></i>
+                        
+                    </span>
+                </div>
+
+                <a href="arduino-project.html"
+                   class="download-btn">
+                    View Resource
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========== FEATURED RESOURCES END ========== -->
+
+
+
+
+<!-- ========== WHY CHOOSE UNISHARE START ========== -->
+
+<section class="why-section">
+
+    <div class="why-container">
+
+        <!-- Heading -->
+        <div class="why-heading">
+
+            <span class="section-tag">
+                OUR ADVANTAGES
+            </span>
+
+            <h2>Why Choose <span>UniShare?</span></h2>
+
+            <p>
+                More than just a resource platform.
+                A community where students learn, share
+                and grow together.
+            </p>
+
+        </div>
+
+        <!-- Features -->
+        <div class="why-grid">
+
+            <!-- Feature 1 -->
+            <div class="why-card">
+
+                <div class="why-icon quality-icon">
+                    <i class="fa-solid fa-book-open-reader"></i>
+                </div>
+
+                <h3>Quality Resources</h3>
+
+                <p>
+                    Find useful notes, books, previous papers
+                    and academic materials in one place.
+                </p>
+
+                <span class="why-number">01</span>
+
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="why-card">
+
+                <div class="why-icon community-icon">
+                    <i class="fa-solid fa-people-group"></i>
+                </div>
+
+                <h3>Student Community</h3>
+
+                <p>
+                    Connect with fellow learners and
+                    share knowledge to grow together.
+                </p>
+
+                <span class="why-number">02</span>
+
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="why-card">
+
+                <div class="why-icon download-icon">
+                    <i class="fa-solid fa-cloud-arrow-down"></i>
+                </div>
+
+                <h3>Easy Downloads</h3>
+
+                <p>
+                    Access your required study materials
+                    through a simple and convenient platform.
+                </p>
+
+                <span class="why-number">03</span>
+
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="why-card">
+
+                <div class="why-icon organized-icon">
+                    <i class="fa-solid fa-layer-group"></i>
+                </div>
+
+                <h3>Organized Learning</h3>
+
+                <p>
+                    Explore resources through organized
+                    categories and find materials easily.
+                </p>
+
+                <span class="why-number">04</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========== WHY CHOOSE UNISHARE END ========== -->
+
+
+
+<!-- ========== CTA SECTION START ========== -->
+
+<section class="cta-section">
+
+    <div class="cta-container">
+
+        <!-- Background Decorations -->
+        <div class="cta-circle circle-one"></div>
+        <div class="cta-circle circle-two"></div>
+
+        <!-- CTA Content -->
+        <div class="cta-content">
+
+            <span class="cta-tag">
+                <i class="fa-solid fa-rocket"></i>
+                JOIN THE COMMUNITY
+            </span>
+
+            <h2>
+                Ready to Learn & Share?
+                <span>Your Knowledge Can Make a Difference.</span>
+            </h2>
+
+            <p>
+                Join students who share resources,
+                discover new ideas and grow together
+                with UniShare. Start your learning
+                journey today!
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="cta-buttons">
+
+                <a href="signup.html" class="cta-primary">
+                    Get Started
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="resources.html" class="cta-secondary">
+                    <i class="fa-solid fa-compass"></i>
+                    Explore Resources
+                </a>
+
+            </div>
+
+            <!-- Bottom Text -->
+            <div class="cta-note">
+                <i class="fa-solid fa-graduation-cap"></i>
+                Learn together. Grow together.
+            </div>
+
+        </div>
+
+        <!-- Decorative Icon -->
+        <div class="cta-decoration">
+            <i class="fa-solid fa-book-open-reader"></i>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========== CTA SECTION END ========== -->
+
+
+<!-- ========== FOOTER SECTION START ========== -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Brand Information -->
+        <div class="footer-brand">
+
+            <a href="index.html" class="footer-logo">
+                <i class="fa-solid fa-graduation-cap"></i>
+                UniShare
+            </a>
+
+            <p>
+                Your gateway to smarter learning.
+                Share knowledge, discover resources
+                and grow together with students.
+            </p>
+
+            <!-- Social Media -->
+            <div class="footer-socials">
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="#" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="resources.html">Resources</a>
+            <a href="upload.html">Upload Resources</a>
+            <a href="about.html">About Us</a>
+
+        </div>
+
+        <!-- Categories -->
+        <div class="footer-column">
+
+            <h3>Categories</h3>
+
+            <a href="resources.html?category=notes">Notes</a>
+            <a href="resources.html?category=books">Books</a>
+            <a href="resources.html?category=papers">Previous Papers</a>
+            <a href="resources.html?category=projects">Projects</a>
+
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-column">
+
+            <h3>Contact Us</h3>
+
+            <a href="mailto:contact@unishare.com">
+                <i class="fa-regular fa-envelope"></i>
+                contact@unishare.com
+            </a>
+
+            <a href="index.html">
+                <i class="fa-solid fa-globe"></i>
+                www.unishare.com
+            </a>
+
+            <p class="footer-contact-text">
+                Have questions or suggestions?
+                We'd love to hear from you.
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 UniShare. All rights reserved.
+        </p>
+
+        <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- ========== FOOTER SECTION END ========== -->
+
+
+
+</body>
+</html>
