@@ -10,6 +10,7 @@ body {
 .nav-links a.active {
     color: #2563eb;
     font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .books-hero {
